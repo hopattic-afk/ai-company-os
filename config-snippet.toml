@@ -1,0 +1,27 @@
+[agents]
+max_threads = 4
+max_depth = 1
+
+[agents.north]
+description = "Product lead for requirements, priorities, acceptance criteria, and product coherence."
+config_file = "agents/north.toml"
+
+[agents.scout]
+description = "Research lead for users, ADHD evidence, competitors, market, and differentiation."
+config_file = "agents/scout.toml"
+
+[agents.forge]
+description = "Engineering lead for architecture, release readiness, risk, and implementation planning."
+config_file = "agents/forge.toml"
+
+[agents.bolt]
+description = "Primary builder for bounded implementation work."
+config_file = "agents/bolt.toml"
+
+[agents.sentinel]
+description = "Independent reviewer for QA, privacy, security, accessibility, and regressions."
+config_file = "agents/sentinel.toml"
+
+[agents.signal]
+description = "Growth lead for positioning, website, content, launch, and measurement."
+config_file = "agents/signal.toml"
