@@ -9,6 +9,7 @@ body:
       label: Project
       options:
         - Kipreh
+        - Kingshot Discord Bot
         - AI Company OS
         - Blog maker
         - Physical product
